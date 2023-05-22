@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    .Login {
+        margin: 56px 15px 0;
+    }
+
+    .Login__imgLogin {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1286px) {
+    .Login .Login__imgLogin {
+        width: 420px;
+    }
+
+    .Login .Login__imgLogin img {
+        width: 420px;
+    }
+}

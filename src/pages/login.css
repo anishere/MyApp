@@ -1,0 +1,22 @@
+.Login{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 180px 0 110px;
+}
+
+.Login .Login__imgLogin {
+    margin-top: 120px;
+    max-width: 665px;
+    height: 560px;
+    background: linear-gradient(208.82deg, #E3F1FE 18.96%, rgba(227, 241, 254, 0) 91.36%);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: scaleX(1);
+    border-radius: 32% 68% 69% 31% / 47% 51% 49% 53%;
+}
+
+.Login .Login__imgLogin img {
+    margin-top: 70px;
+    transform: scaleX(1);
+}

@@ -1,0 +1,131 @@
+.Form {
+    width: 450px;
+ }
+ 
+ .Form h1{
+     font-weight: 700;
+     font-size: 2.6875rem;
+     line-height: 54px;
+     /* Text/H1 H2 */
+     color: #0E4A67;
+     margin-bottom: 0px;
+ }
+ 
+ .Form .Forgot {
+     font-weight: 400;
+     font-size: 1.1919625rem;
+     line-height: 29px;
+     color: #37677E;
+     margin: 0 0 30px 0;
+ }
+ 
+ .Form p {
+     font-weight: 400;
+     font-size: 0.75rem;
+     line-height: 22px;
+     color: #207198;
+     margin-bottom: 2px;
+     margin-left: 14px;
+ }
+ 
+ p.Forgot a{
+     color: #FE904B;
+     text-decoration: none;
+ }
+ 
+ .Form input {
+     width: 98%;
+     height: 45px;
+     background: #FFFFFF;
+     /* Color/Main, H3 */
+ 
+     border: 2.38392px solid #207198;
+     border-radius: 14.3035px;
+ }
+ 
+ .Form button {
+     width: 100%;
+     height: 49px;
+     margin-top: 32px;
+     background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%), #EE5757;
+     backdrop-filter: blur(2.38392px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 14.3035px;
+     border: none;
+     /* text */
+     font-weight: 600;
+     font-size: 1.375rem;
+     line-height: 120%;
+     /* or 31px */
+     text-align: center;
+     /* Color/Card Background */
+     color: #FFFFFF;
+ }
+ 
+ .Form button:hover {
+     opacity: 0.8;
+     cursor: pointer;
+ }
+ 
+ .Form a {
+     font-weight: 400;
+     font-size: 19.0714px;
+     line-height: 29px;
+     color: #207198;
+     margin-top: 15px;
+     display: inline-block;
+ }
+ 
+ .Form__line {
+     text-align: center;
+     font-weight: 700;
+     font-size: 1.78rem;
+     line-height: 33px;
+     /* or 117% */
+     letter-spacing: 0.595981px;
+     /* Text/H1 H2 */
+     color: #0E4A67;
+     margin-bottom: 0;
+ }
+ 
+ .Form__line::before,
+ .Form__line::after {
+   content: "";
+   display: inline-block;
+   width: 100px;
+   margin: 2px 10px;
+   border-top: 2px solid #207198;
+ }
+ 
+ .Form__line::before {
+   margin-right: 30px;
+ }
+ 
+ .Form__line::after {
+   margin-left: 30px;
+ }
+ 
+ .Form button.Form__buttonForward {
+     background: #E3F1FE;
+     font-weight: 400;
+     font-size: 1rem;
+     line-height: 24px;
+     /* or 150% */
+     letter-spacing: 0.5px;
+     /* Color/Main, H3 */
+     color: #207198;
+     margin-top: 12px;
+     border: 2px solid #207198;
+ }
+ 
+ .Form button.Form__buttonForwardSecond {
+     margin-top: 32px;
+ }
+ 
+ .Form button.Form__buttonForward i {
+     margin-right: 30px;
+     font-size: 1.8rem;
+ }
+ .Form button.Form__buttonForwardSecond i {
+     margin-right: 50px;
+ }
